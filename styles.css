@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #fffffe, #96e6a1);
+    text-align: center;
+    padding: 20px;
+}
+
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+th {
+    background: #48c9b0;
+    color: white;
+}
+
+canvas {
+    width: 80% !important;
+    max-width: 600px;
+    margin: 20px auto;
+    display: block;
+}
